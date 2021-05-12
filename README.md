@@ -1,1 +1,1 @@
-# CanadianCovidTwitterDataset
+# CanadianCovidTweetsProject

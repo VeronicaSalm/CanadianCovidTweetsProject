@@ -18,9 +18,11 @@ Next, I ran Non-negative Matrix Factorization (NMF) on each two-week period. NMF
 The results of running NMF are described below.
 
 Notes:
-* For each week, I chose to generate `k=10` topics. If the topics appear uninformative, we can try other values of `k` (e.g., generate 7 topics instead).
-* If this data seems useful, I can generate the results for Nov, 2020 to present over the next week.
-* I also ran VADER on each Canadian tweet, so I can generate some statistics about how the VADER scores change over time upon request. For example, I extract all tweets containing mask-related keywords and plot the average VADER scores for each 2-week period over time. 
+* For each week, I chose to generate `k=10` topics. If the topics appear uninformative, we can try other values of `k` (e.g., generate 7 topics instead). **For best results, we should try tuning the number of topics to find the one that gives the highest average coherence** (for example, we may find that 15 topics is best for one week and 11 best for another week).  
+* I did not filter the tweets in any way. These are the results of running topic modelling on the raw data, which includes (or could include) retweets, replies, images, links, and non-English text. I decided not to filter anything for two reasons: (1) this allowed me to get results out more quickly, and (2) in a sample of 1541 tweets, 1491 were English and only 50 (about 3.2%) were non-English according to a language detection tool. This seemed like a small percentage that likely wouldn't affect the topic modelling results (and indeed, when I looked at the January results, I didn't notice any clear non-English topics).
+* These results only go up to the end of October, 2020. If this data seems useful, I can easily generate the results for Nov, 2020 to present.
+* I also ran VADER on each Canadian tweet, so I can generate some statistics about how the VADER scores change over time upon request. For example, I could extract all tweets containing mask-related keywords and plot the average VADER scores for each 2-week period over time?
+* If you want access to the tweets themselves, please let me know (the tweet folder is nearly 600 MB compressed, or 2.0GB uncompressed, which is why I didn't include it here). 
 
 ## Topic Modelling Results
 

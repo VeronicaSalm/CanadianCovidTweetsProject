@@ -33,7 +33,9 @@ PERIOD                  TOPICS   COHERENCE
 2020-10-14_2020-10-27/	10	     0.53775
 2020-10-28_2020-10-31/	10	     0.58718
 ```
-Interestingly, only two periods have a best number of topics that is over 30 - the rest are 20 or below, even though I tested counts up to 50.
+Interestingly, only two periods have a best number of topics that is over 30 - the rest are 20 or below, even though I tested counts up to 50.    
+
+**Note:** These results are considered better by an automatic method, but often the difference in coherence between two topic numbers is quite small (e.g., 15 topics may give coherence = 0.5678, but 10 topics could be almost as good with coherence = 0.5633). Since you will be visually inspecting the topics anyway, you can decide which results are better on a period-by-period basis.
 
 ## Download the Data
 

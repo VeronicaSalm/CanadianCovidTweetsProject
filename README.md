@@ -1,5 +1,42 @@
 # CanadianCovidTweetsProject
 
+## New! Tuned Results
+
+The folder `tuned_results` now contains the NMF results after tuning the number of topics using coherence. The steps to generate this folder are as follows:
+1. **Tuning Process:** I tested topic counts [5,10,15,20,25,30,35,40,45,50] by generating NMF models and computing the average coherence across all produced topics. I used a different implementation of NMF (from the [Gensim library](https://radimrehurek.com/gensim/models/nmf.html)) for the tuning process because it has a built-in way to compute coherence. (We implemented coherence from scratch in our other project and I'm not certain it is trustworthy and bug-free).
+2. **Topic Generation:** I then generated topics using the [Scikit Learn library]()'s implementation of NMF (exactly the same as below). But instead of telling it to produce 10 topics, I used the best number of topics produced by the tuning process. This means that some weeks of data have different numbers of topics.
+
+Results:
+* `tuned_results`: This folder is structured exactly the same way as the original `topic_model_results` folder, but this one contains the tuned topics instead of defaulting to 10 topics per period.
+* `topics_per_period.csv`: This spreadsheet will tell you, at a glance, how many topics were generated for each period. I'm also pasting the counts here for easy reference:
+```
+PERIOD                  TOPICS   COHERENCE
+2020-01-21_2020-02-03/	30	     0.48165
+2020-02-04_2020-02-17/	40	     0.54204
+2020-02-18_2020-03-03/	15	     0.50949
+2020-03-04_2020-03-17/	20	     0.60944
+2020-03-18_2020-03-31/	10	     0.49097
+2020-04-01_2020-04-14/	20	     0.5172
+2020-04-15_2020-04-28/	20	     0.46569
+2020-04-29_2020-05-12/	20	     0.49084
+2020-05-13_2020-05-26/	5	     0.47675
+2020-05-27_2020-06-09/	15	     0.4985
+2020-06-10_2020-06-23/	5	     0.53138
+2020-06-24_2020-07-07/	10	     0.54948
+2020-07-08_2020-07-21/	15	     0.49302
+2020-07-22_2020-08-04/	10	     0.5177
+2020-08-05_2020-08-18/	25	     0.56848
+2020-08-19_2020-09-01/	5	     0.55926
+2020-09-02_2020-09-15/	10	     0.54614
+2020-09-16_2020-09-29/	15	     0.54167
+2020-09-30_2020-10-13/	20	     0.52593
+2020-10-14_2020-10-27/	10	     0.53775
+2020-10-28_2020-10-31/	10	     0.58718
+```
+Interestingly, only two periods have a best number of topics that is over 30 - the rest are 20 or below, even though I tested counts up to 50.    
+
+**Note:** These results are considered better by an automatic method, but often the difference in coherence between two topic numbers is quite small (e.g., 15 topics may give coherence = 0.5678, but 10 topics could be almost as good with coherence = 0.5633). Since you will be visually inspecting the topics anyway, you can decide which results are better on a period-by-period basis.
+
 ## Download the Data
 
 If you want to download this repository as a .zip file, click the green "Code" button. In the drop-down menu, click "Download ZIP". This will allow you to save the current state of this branch anywhere on your personal machine.   

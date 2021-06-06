@@ -34,7 +34,7 @@
             "protest",
             "life"
         ],
-        "coherence": 0.534183653195699
+        "coherence": 0.5393831190608797
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "total",
             "hospital"
         ],
-        "coherence": 0.5604413878350031
+        "coherence": 0.5525896796158382
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "home",
             "health"
         ],
-        "coherence": 0.5364335318406422
+        "coherence": 0.5437478905632382
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "risk",
             "love"
         ],
-        "coherence": 0.4901482269877479
+        "coherence": 0.4976882449218205
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "ford",
             "trudeau"
         ],
-        "coherence": 0.39300903053510755
+        "coherence": 0.3902763958488192
     },
     "num_topics": 5,
     "gensim_coherence": 0.53138

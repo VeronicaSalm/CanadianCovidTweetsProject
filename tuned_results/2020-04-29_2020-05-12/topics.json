@@ -34,7 +34,7 @@
             "human",
             "vote"
         ],
-        "coherence": 0.4824278465339116
+        "coherence": 0.4903566414401645
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "daily",
             "population"
         ],
-        "coherence": 0.504970474754061
+        "coherence": 0.5048166510604677
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "disaster",
             "failed"
         ],
-        "coherence": 0.5141725367023832
+        "coherence": 0.5108266489846366
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "life",
             "longterm"
         ],
-        "coherence": 0.510769146680832
+        "coherence": 0.5049802729061672
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "killed",
             "conspiracy"
         ],
-        "coherence": 0.454953015985943
+        "coherence": 0.45330503355889096
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "origin",
             "say"
         ],
-        "coherence": 0.5380677297001794
+        "coherence": 0.5438033484277272
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "black",
             "stupid"
         ],
-        "coherence": 0.5222787280877431
+        "coherence": 0.53011546872911
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "toronto",
             "miller"
         ],
-        "coherence": 0.4619786194392613
+        "coherence": 0.45885414282480874
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "restaurant",
             "city"
         ],
-        "coherence": 0.47639565751666113
+        "coherence": 0.4848111615294502
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "report",
             "director"
         ],
-        "coherence": 0.45117570956548053
+        "coherence": 0.4465628635315668
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "medium",
             "prime"
         ],
-        "coherence": 0.43223371392204646
+        "coherence": 0.4402806280624299
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "treatment",
             "drug"
         ],
-        "coherence": 0.46593165880157833
+        "coherence": 0.4642513996078855
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "mr",
             "germany"
         ],
-        "coherence": 0.4534717151096889
+        "coherence": 0.4529733000766663
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "pa",
             "sur"
         ],
-        "coherence": 0.43329683297446797
+        "coherence": 0.4277773817557664
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "share",
             "join"
         ],
-        "coherence": 0.46481336411975677
+        "coherence": 0.4669675497781663
     },
     "16": {
         "features": {
@@ -589,7 +589,7 @@
             "billion",
             "essential"
         ],
-        "coherence": 0.48580286786669774
+        "coherence": 0.4842014653342111
     },
     "17": {
         "features": {
@@ -626,7 +626,7 @@
             "mother",
             "idea"
         ],
-        "coherence": 0.4404558723881131
+        "coherence": 0.4587274219308581
     },
     "18": {
         "features": {
@@ -663,7 +663,7 @@
             "thats",
             "wrong"
         ],
-        "coherence": 0.5533250212669373
+        "coherence": 0.560880329211553
     },
     "19": {
         "features": {
@@ -700,7 +700,7 @@
             "comment",
             "body"
         ],
-        "coherence": 0.4136717880056018
+        "coherence": 0.4129238839660372
     },
     "20": {
         "features": {
@@ -737,7 +737,7 @@
             "city",
             "safety"
         ],
-        "coherence": 0.5011814402682441
+        "coherence": 0.49833328269776844
     },
     "num_topics": 20,
     "gensim_coherence": 0.49084

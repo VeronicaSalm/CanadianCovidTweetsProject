@@ -34,7 +34,7 @@
             "talk",
             "record"
         ],
-        "coherence": 0.4187563080163229
+        "coherence": 0.40918873179526555
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "diamondprincess",
             "near"
         ],
-        "coherence": 0.6338490020661127
+        "coherence": 0.6356358911309924
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "breaking",
             "confirms"
         ],
-        "coherence": 0.5334745157332648
+        "coherence": 0.5260706952639989
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "sent",
             "center"
         ],
-        "coherence": 0.45755357373328437
+        "coherence": 0.4439797370206742
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "government",
             "home"
         ],
-        "coherence": 0.45069257077716646
+        "coherence": 0.4489630020800091
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "response",
             "safe"
         ],
-        "coherence": 0.4591230767113822
+        "coherence": 0.4549320311773391
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "france",
             "foreign"
         ],
-        "coherence": 0.4010931324391138
+        "coherence": 0.3985736090512503
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "sign",
             "alarm"
         ],
-        "coherence": 0.46909795914377483
+        "coherence": 0.46991632538182393
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "killing",
             "shut"
         ],
-        "coherence": 0.4090156525373459
+        "coherence": 0.4054975178979692
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "prison",
             "publishing"
         ],
-        "coherence": 0.47194287535690127
+        "coherence": 0.47360960103216626
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "break",
             "fall"
         ],
-        "coherence": 0.42166967406159356
+        "coherence": 0.429449719616345
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "protest",
             "protective"
         ],
-        "coherence": 0.4620336958340236
+        "coherence": 0.4602565688746316
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "reveals",
             "canceled"
         ],
-        "coherence": 0.44166988361449466
+        "coherence": 0.4415751086814063
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "trudeaumustgo",
             "want"
         ],
-        "coherence": 0.4179595294452849
+        "coherence": 0.4162007117555255
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "idiot",
             "china"
         ],
-        "coherence": 0.38433708335672107
+        "coherence": 0.3775051732858022
     },
     "16": {
         "features": {
@@ -589,7 +589,7 @@
             "guess",
             "thinking"
         ],
-        "coherence": 0.38975534297171094
+        "coherence": 0.38950806118193126
     },
     "17": {
         "features": {
@@ -626,7 +626,7 @@
             "iran",
             "violence"
         ],
-        "coherence": 0.3599280609971001
+        "coherence": 0.36691624564783915
     },
     "18": {
         "features": {
@@ -663,7 +663,7 @@
             "warfare",
             "probably"
         ],
-        "coherence": 0.4430306698594775
+        "coherence": 0.4287988316445124
     },
     "19": {
         "features": {
@@ -700,7 +700,7 @@
             "jinping",
             "ncov"
         ],
-        "coherence": 0.3910400959707442
+        "coherence": 0.3991113882689249
     },
     "20": {
         "features": {
@@ -737,7 +737,7 @@
             "early",
             "built"
         ],
-        "coherence": 0.4413059915815081
+        "coherence": 0.4413134178944996
     },
     "21": {
         "features": {
@@ -774,7 +774,7 @@
             "trust",
             "little"
         ],
-        "coherence": 0.4387675723859242
+        "coherence": 0.4369986606495721
     },
     "22": {
         "features": {
@@ -811,7 +811,7 @@
             "source",
             "novel"
         ],
-        "coherence": 0.471957916872842
+        "coherence": 0.45155844958055585
     },
     "23": {
         "features": {
@@ -848,7 +848,7 @@
             "60",
             "course"
         ],
-        "coherence": 0.44656162489028206
+        "coherence": 0.44385879579044524
     },
     "24": {
         "features": {
@@ -885,7 +885,7 @@
             "cbcnews",
             "china"
         ],
-        "coherence": 0.43136902962412155
+        "coherence": 0.42661632625829604
     },
     "25": {
         "features": {
@@ -922,7 +922,7 @@
             "ask",
             "twitter"
         ],
-        "coherence": 0.4006669247434253
+        "coherence": 0.3981001949026471
     },
     "26": {
         "features": {
@@ -959,7 +959,7 @@
             "remains",
             "said"
         ],
-        "coherence": 0.44718019650095986
+        "coherence": 0.45567980053878965
     },
     "27": {
         "features": {
@@ -996,7 +996,7 @@
             "daily",
             "speech"
         ],
-        "coherence": 0.428649904756319
+        "coherence": 0.43094412230309986
     },
     "28": {
         "features": {
@@ -1033,7 +1033,7 @@
             "failure",
             "trudeaus"
         ],
-        "coherence": 0.412813171460515
+        "coherence": 0.4072426043805622
     },
     "29": {
         "features": {
@@ -1070,7 +1070,7 @@
             "headline",
             "region"
         ],
-        "coherence": 0.41232258876164757
+        "coherence": 0.41878924511727833
     },
     "30": {
         "features": {
@@ -1107,7 +1107,7 @@
             "moron",
             "officially"
         ],
-        "coherence": 0.35826372419084823
+        "coherence": 0.3669798078991118
     },
     "31": {
         "features": {
@@ -1144,7 +1144,7 @@
             "image",
             "starting"
         ],
-        "coherence": 0.42428637870720454
+        "coherence": 0.4229383197568712
     },
     "32": {
         "features": {
@@ -1181,7 +1181,7 @@
             "special",
             "took"
         ],
-        "coherence": 0.415910747221538
+        "coherence": 0.41651541462966374
     },
     "33": {
         "features": {
@@ -1218,7 +1218,7 @@
             "check",
             "cure"
         ],
-        "coherence": 0.43324404926527116
+        "coherence": 0.42409331784361887
     },
     "34": {
         "features": {
@@ -1255,7 +1255,7 @@
             "entry",
             "rt"
         ],
-        "coherence": 0.4329104612270991
+        "coherence": 0.43281561249778383
     },
     "35": {
         "features": {
@@ -1292,7 +1292,7 @@
             "une",
             "sur"
         ],
-        "coherence": 0.43202197588980196
+        "coherence": 0.4269394202601342
     },
     "36": {
         "features": {
@@ -1329,7 +1329,7 @@
             "ltlt",
             "protection"
         ],
-        "coherence": 0.46770213501794
+        "coherence": 0.4751285626774743
     },
     "37": {
         "features": {
@@ -1366,7 +1366,7 @@
             "san",
             "dozen"
         ],
-        "coherence": 0.43705071551459174
+        "coherence": 0.44312621894336884
     },
     "38": {
         "features": {
@@ -1403,7 +1403,7 @@
             "research",
             "known"
         ],
-        "coherence": 0.39288042854695093
+        "coherence": 0.4005338016010466
     },
     "39": {
         "features": {
@@ -1440,7 +1440,7 @@
             "arent",
             "conference"
         ],
-        "coherence": 0.37422407553309484
+        "coherence": 0.3835710884559722
     },
     "40": {
         "features": {
@@ -1477,7 +1477,7 @@
             "actual",
             "cotton"
         ],
-        "coherence": 0.37572009719553445
+        "coherence": 0.38089423179626464
     },
     "num_topics": 40,
     "gensim_coherence": 0.54204

@@ -34,7 +34,7 @@
             "end",
             "month"
         ],
-        "coherence": 0.5078449087483542
+        "coherence": 0.5210694443611872
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "time",
             "message"
         ],
-        "coherence": 0.4802743971347809
+        "coherence": 0.4751936299460275
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "rate",
             "ontario"
         ],
-        "coherence": 0.5111740739572616
+        "coherence": 0.5200965481145041
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "lied",
             "sent"
         ],
-        "coherence": 0.5091625965776898
+        "coherence": 0.5063957356271289
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "toronto",
             "canada"
         ],
-        "coherence": 0.4598069375469571
+        "coherence": 0.4712243065947578
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "news",
             "called"
         ],
-        "coherence": 0.5081390565349942
+        "coherence": 0.505629977725801
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "fucking",
             "know"
         ],
-        "coherence": 0.4802785098552704
+        "coherence": 0.4734154207365853
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "symptom",
             "equipment"
         ],
-        "coherence": 0.4759064245791662
+        "coherence": 0.4708659401961735
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "pm",
             "justin"
         ],
-        "coherence": 0.42055202392595153
+        "coherence": 0.4233226420978705
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "money",
             "time"
         ],
-        "coherence": 0.45175036802178337
+        "coherence": 0.4475998205798013
     },
     "num_topics": 10,
     "gensim_coherence": 0.49097

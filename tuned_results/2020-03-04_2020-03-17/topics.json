@@ -34,7 +34,7 @@
             "crisis",
             "news"
         ],
-        "coherence": 0.460055928287052
+        "coherence": 0.4441420160588764
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "province",
             "york"
         ],
-        "coherence": 0.47543525270053316
+        "coherence": 0.4854126155376434
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "sick",
             "follow"
         ],
-        "coherence": 0.45399456393151055
+        "coherence": 0.4549901607490721
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "wow",
             "airport"
         ],
-        "coherence": 0.3982230409270241
+        "coherence": 0.4030424746729079
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "worry",
             "kill"
         ],
-        "coherence": 0.4612150791145506
+        "coherence": 0.46583245595296224
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "briefing",
             "daily"
         ],
-        "coherence": 0.43137172148341224
+        "coherence": 0.43954308260054814
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "week",
             "cdc"
         ],
-        "coherence": 0.46847506903466724
+        "coherence": 0.472054998647599
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "prime",
             "justin"
         ],
-        "coherence": 0.4576019231762205
+        "coherence": 0.4598540402594067
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "leading",
             "market"
         ],
-        "coherence": 0.44748792080652144
+        "coherence": 0.44808597025417146
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "breaking",
             "lockdown"
         ],
-        "coherence": 0.4817603528499603
+        "coherence": 0.47771885026068917
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "officer",
             "service"
         ],
-        "coherence": 0.4308397486096337
+        "coherence": 0.431350660040265
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "strain",
             "dog"
         ],
-        "coherence": 0.4466488880770547
+        "coherence": 0.4382288265795935
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "hand",
             "plus"
         ],
-        "coherence": 0.3177945465736446
+        "coherence": 0.3275814072716804
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "god",
             "gaetz"
         ],
-        "coherence": 0.46360351088501156
+        "coherence": 0.45710775866394954
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "princess",
             "combat"
         ],
-        "coherence": 0.4120543319554556
+        "coherence": 0.41785112264610474
     },
     "16": {
         "features": {
@@ -589,7 +589,7 @@
             "bank",
             "fatality"
         ],
-        "coherence": 0.42896609277952286
+        "coherence": 0.4328416380144301
     },
     "17": {
         "features": {
@@ -626,7 +626,7 @@
             "thats",
             "know"
         ],
-        "coherence": 0.48678634691806066
+        "coherence": 0.4926584575857435
     },
     "18": {
         "features": {
@@ -663,7 +663,7 @@
             "restriction",
             "airline"
         ],
-        "coherence": 0.4563771388360432
+        "coherence": 0.4481884167307899
     },
     "19": {
         "features": {
@@ -700,7 +700,7 @@
             "spread",
             "office"
         ],
-        "coherence": 0.4136669962179093
+        "coherence": 0.41078912899607706
     },
     "20": {
         "features": {
@@ -737,7 +737,7 @@
             "failure",
             "zero"
         ],
-        "coherence": 0.40527239484446387
+        "coherence": 0.4090523171992529
     },
     "num_topics": 20,
     "gensim_coherence": 0.60944

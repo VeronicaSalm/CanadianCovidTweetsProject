@@ -34,7 +34,7 @@
             "answer",
             "economic"
         ],
-        "coherence": 0.46616687519209726
+        "coherence": 0.4599154194196065
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "breaking",
             "province"
         ],
-        "coherence": 0.5200460686570122
+        "coherence": 0.5139568743251619
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "fordnation",
             "kid"
         ],
-        "coherence": 0.4720644797597613
+        "coherence": 0.48696320880027044
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "taiwan",
             "virus"
         ],
-        "coherence": 0.4753284882931482
+        "coherence": 0.48560015984943933
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "ban",
             "biden"
         ],
-        "coherence": 0.5016016469115303
+        "coherence": 0.5016308270749592
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "got",
             "church"
         ],
-        "coherence": 0.5581494141192663
+        "coherence": 0.5559422285783858
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "rule",
             "ottawa"
         ],
-        "coherence": 0.41513381799062093
+        "coherence": 0.4166502268541427
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "black",
             "dead"
         ],
-        "coherence": 0.5062296187593823
+        "coherence": 0.5071561530942008
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "medical",
             "fighting"
         ],
-        "coherence": 0.528513821533748
+        "coherence": 0.5259743633724394
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "release",
             "boris"
         ],
-        "coherence": 0.475529078074864
+        "coherence": 0.46888078394390287
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "wearing",
             "protective"
         ],
-        "coherence": 0.5662968218326568
+        "coherence": 0.5654494793642135
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "kenney",
             "advice"
         ],
-        "coherence": 0.48997544589496794
+        "coherence": 0.48749296154294697
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "middle",
             "failed"
         ],
-        "coherence": 0.49954104253223963
+        "coherence": 0.5037830511728922
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "ship",
             "site"
         ],
-        "coherence": 0.4505597372849782
+        "coherence": 0.451565426162311
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "relief",
             "small"
         ],
-        "coherence": 0.5066878511792138
+        "coherence": 0.5113266178539821
     },
     "16": {
         "features": {
@@ -589,7 +589,7 @@
             "opinion",
             "europe"
         ],
-        "coherence": 0.45150102987175894
+        "coherence": 0.4467463501862117
     },
     "17": {
         "features": {
@@ -626,7 +626,7 @@
             "story",
             "post"
         ],
-        "coherence": 0.43707221831594195
+        "coherence": 0.43485482249941143
     },
     "18": {
         "features": {
@@ -663,7 +663,7 @@
             "issue",
             "youtube"
         ],
-        "coherence": 0.42028334680057705
+        "coherence": 0.41743948644115814
     },
     "19": {
         "features": {
@@ -700,7 +700,7 @@
             "fake",
             "sur"
         ],
-        "coherence": 0.38979944753504936
+        "coherence": 0.3915024424592654
     },
     "20": {
         "features": {
@@ -737,7 +737,7 @@
             "thread",
             "gate"
         ],
-        "coherence": 0.4489409517674219
+        "coherence": 0.45150733419827055
     },
     "num_topics": 20,
     "gensim_coherence": 0.5172

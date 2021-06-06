@@ -34,7 +34,7 @@
             "way",
             "end"
         ],
-        "coherence": 0.5823530685333979
+        "coherence": 0.5785631767341068
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "today",
             "infection"
         ],
-        "coherence": 0.5733912890865689
+        "coherence": 0.5753142663410732
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "twitter",
             "protect"
         ],
-        "coherence": 0.4941341881241117
+        "coherence": 0.4996090476002012
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "plan",
             "debate"
         ],
-        "coherence": 0.5597629592532203
+        "coherence": 0.5546473602453867
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "pour",
             "fordfailedthepeople"
         ],
-        "coherence": 0.35683980626719336
+        "coherence": 0.35730900296143125
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "second",
             "minister"
         ],
-        "coherence": 0.46660201804978507
+        "coherence": 0.46055600472858976
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "student",
             "official"
         ],
-        "coherence": 0.5058602432409922
+        "coherence": 0.5047664267676217
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "day",
             "reminder"
         ],
-        "coherence": 0.4954061434382484
+        "coherence": 0.4952201522531964
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "committee",
             "conservative"
         ],
-        "coherence": 0.5159855902194976
+        "coherence": 0.5099969035103208
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "watch",
             "seen"
         ],
-        "coherence": 0.45246498598938895
+        "coherence": 0.4547973844267073
     },
     "num_topics": 10,
     "gensim_coherence": 0.53775

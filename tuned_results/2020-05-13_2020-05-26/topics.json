@@ -34,7 +34,7 @@
             "cdnpoli",
             "people"
         ],
-        "coherence": 0.4377313012168521
+        "coherence": 0.44111826164381845
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "state",
             "reopening"
         ],
-        "coherence": 0.4612391009217217
+        "coherence": 0.46700454836799987
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "death",
             "republican"
         ],
-        "coherence": 0.4352364452112289
+        "coherence": 0.44494222970235914
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "rule",
             "hand"
         ],
-        "coherence": 0.47628312536648343
+        "coherence": 0.48330992517017185
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "trial",
             "youtube"
         ],
-        "coherence": 0.33483407117781183
+        "coherence": 0.3382246814313389
     },
     "num_topics": 5,
     "gensim_coherence": 0.47675

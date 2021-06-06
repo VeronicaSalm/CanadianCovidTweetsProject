@@ -34,7 +34,7 @@
             "sure",
             "long"
         ],
-        "coherence": 0.5629011631011963
+        "coherence": 0.5569089881011418
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "total",
             "data"
         ],
-        "coherence": 0.5062353565579369
+        "coherence": 0.5112829228242238
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "fuck",
             "wearamask"
         ],
-        "coherence": 0.5239510317643483
+        "coherence": 0.5227810152939387
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "testing",
             "morning"
         ],
-        "coherence": 0.4457547619229271
+        "coherence": 0.4552068852242969
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "treatment",
             "photo"
         ],
-        "coherence": 0.5025240163008372
+        "coherence": 0.5092644333839417
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "family",
             "pay"
         ],
-        "coherence": 0.48672377098174324
+        "coherence": 0.48688033535366965
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "minute",
             "release"
         ],
-        "coherence": 0.4493681337152209
+        "coherence": 0.4578568007264818
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "state",
             "wish"
         ],
-        "coherence": 0.46367961650802975
+        "coherence": 0.4527360978580657
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "michigan",
             "cdnpoli"
         ],
-        "coherence": 0.4279113854680743
+        "coherence": 0.42712609271208446
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "middle",
             "trying"
         ],
-        "coherence": 0.46447322169939675
+        "coherence": 0.4619718094666799
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "literally",
             "able"
         ],
-        "coherence": 0.4486951240471431
+        "coherence": 0.44000069130034675
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "democrat",
             "coney"
         ],
-        "coherence": 0.5468318368707384
+        "coherence": 0.5517077164990561
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "attention",
             "comment"
         ],
-        "coherence": 0.4509538204897018
+        "coherence": 0.4432287482988267
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "access",
             "outbreak"
         ],
-        "coherence": 0.49348172318367733
+        "coherence": 0.4967526989323752
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "immunity",
             "human"
         ],
-        "coherence": 0.4679432190599896
+        "coherence": 0.46570518130347843
     },
     "16": {
         "features": {
@@ -589,7 +589,7 @@
             "lost",
             "reminder"
         ],
-        "coherence": 0.43059297431082955
+        "coherence": 0.4285475581884384
     },
     "17": {
         "features": {
@@ -626,7 +626,7 @@
             "mike",
             "vp"
         ],
-        "coherence": 0.4612326241674877
+        "coherence": 0.4595413137049902
     },
     "18": {
         "features": {
@@ -663,7 +663,7 @@
             "wow",
             "infectious"
         ],
-        "coherence": 0.4427831341822942
+        "coherence": 0.44286231583073027
     },
     "19": {
         "features": {
@@ -700,7 +700,7 @@
             "restaurant",
             "bar"
         ],
-        "coherence": 0.46241449373109
+        "coherence": 0.46298939755984714
     },
     "20": {
         "features": {
@@ -737,7 +737,7 @@
             "pa",
             "une"
         ],
-        "coherence": 0.38547387496523916
+        "coherence": 0.39768593492252485
     },
     "num_topics": 20,
     "gensim_coherence": 0.52593

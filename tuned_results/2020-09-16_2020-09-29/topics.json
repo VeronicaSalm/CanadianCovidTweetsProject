@@ -34,7 +34,7 @@
             "time",
             "economic"
         ],
-        "coherence": 0.5004589679695312
+        "coherence": 0.5034290466989789
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "day",
             "daily"
         ],
-        "coherence": 0.5568291371776944
+        "coherence": 0.5543173480601538
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "hand",
             "app"
         ],
-        "coherence": 0.5315308270000276
+        "coherence": 0.5265769325551533
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "campaign",
             "herd"
         ],
-        "coherence": 0.503534575019564
+        "coherence": 0.4976533654190245
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "hour",
             "erin"
         ],
-        "coherence": 0.44082433780034386
+        "coherence": 0.4387818836030506
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "month",
             "virus"
         ],
-        "coherence": 0.4723777106830052
+        "coherence": 0.45960947700909205
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "update",
             "wont"
         ],
-        "coherence": 0.474990363348098
+        "coherence": 0.47598939708300997
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "closed",
             "parent"
         ],
-        "coherence": 0.469031727597827
+        "coherence": 0.46518944459302086
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "doug",
             "seriously"
         ],
-        "coherence": 0.48309911716552006
+        "coherence": 0.4818437769299462
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "wow",
             "important"
         ],
-        "coherence": 0.46093420897211346
+        "coherence": 0.4559350229444958
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "middle",
             "preexisting"
         ],
-        "coherence": 0.49715461773531777
+        "coherence": 0.5085008714880263
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "trudeau",
             "pandemic"
         ],
-        "coherence": 0.45179953475793205
+        "coherence": 0.4548677542379924
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "polqc",
             "sur"
         ],
-        "coherence": 0.5743993189363252
+        "coherence": 0.5739882649410338
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "shot",
             "amid"
         ],
-        "coherence": 0.41592156482594356
+        "coherence": 0.41421956065155213
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "good",
             "tell"
         ],
-        "coherence": 0.5337751047951834
+        "coherence": 0.5448748202550979
     },
     "num_topics": 15,
     "gensim_coherence": 0.54167

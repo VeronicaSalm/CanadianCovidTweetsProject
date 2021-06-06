@@ -34,7 +34,7 @@
             "today",
             "surge"
         ],
-        "coherence": 0.5635633528232574
+        "coherence": 0.5613806395303635
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "safe",
             "thing"
         ],
-        "coherence": 0.5653848174072448
+        "coherence": 0.5705244788101741
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "end",
             "worst"
         ],
-        "coherence": 0.5538731492701031
+        "coherence": 0.5543190484955197
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "failed",
             "hoax"
         ],
-        "coherence": 0.5095308562119801
+        "coherence": 0.5163400848706563
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "testing",
             "contact"
         ],
-        "coherence": 0.4881224266120366
+        "coherence": 0.4911659291812352
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "usa",
             "fake"
         ],
-        "coherence": 0.4772556810151963
+        "coherence": 0.47643279745465233
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "believe",
             "killed"
         ],
-        "coherence": 0.4919621163890475
+        "coherence": 0.48722668346904574
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "lie",
             "disaster"
         ],
-        "coherence": 0.3503388050411429
+        "coherence": 0.35783543292255626
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "need",
             "china"
         ],
-        "coherence": 0.4388686111995152
+        "coherence": 0.4431778279088792
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "bc",
             "city"
         ],
-        "coherence": 0.4957940342880431
+        "coherence": 0.5024205857799167
     },
     "num_topics": 10,
     "gensim_coherence": 0.54948

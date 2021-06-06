@@ -34,7 +34,7 @@
             "work",
             "make"
         ],
-        "coherence": 0.5392975966135661
+        "coherence": 0.5373916061151596
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "rule",
             "man"
         ],
-        "coherence": 0.5044801802862258
+        "coherence": 0.5046319620949882
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "bc",
             "ontario"
         ],
-        "coherence": 0.5004268527030945
+        "coherence": 0.4982204414549328
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "fordnation",
             "pandemic"
         ],
-        "coherence": 0.5404146092278617
+        "coherence": 0.5391537331399463
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "vote",
             "cain"
         ],
-        "coherence": 0.5280791316713606
+        "coherence": 0.5272371780304682
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "hospital",
             "symptom"
         ],
-        "coherence": 0.536877098253795
+        "coherence": 0.5314274251461029
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "people",
             "die"
         ],
-        "coherence": 0.4953150723661695
+        "coherence": 0.493570506856555
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "watch",
             "cure"
         ],
-        "coherence": 0.4715727976390294
+        "coherence": 0.4691495495183127
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "tell",
             "louie"
         ],
-        "coherence": 0.5019250472386678
+        "coherence": 0.5119877789701734
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "government",
             "border"
         ],
-        "coherence": 0.42734359999497734
+        "coherence": 0.41353733880179266
     },
     "num_topics": 10,
     "gensim_coherence": 0.5177

@@ -34,7 +34,7 @@
             "cdc",
             "deal"
         ],
-        "coherence": 0.4405939452704929
+        "coherence": 0.440328650247483
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "reported",
             "iran"
         ],
-        "coherence": 0.5105676111720857
+        "coherence": 0.5143850667136056
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "dems",
             "new"
         ],
-        "coherence": 0.45735172913188027
+        "coherence": 0.46026974008196875
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "50",
             "say"
         ],
-        "coherence": 0.47614849153019134
+        "coherence": 0.47969921969232104
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "russia",
             "pollution"
         ],
-        "coherence": 0.40775449048905144
+        "coherence": 0.40341762531371345
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "symptom",
             "quarantine"
         ],
-        "coherence": 0.4770229731287275
+        "coherence": 0.47891707732563926
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "whistleblower",
             "organization"
         ],
-        "coherence": 0.424074599146843
+        "coherence": 0.4255969653526942
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "cdc",
             "italy"
         ],
-        "coherence": 0.45758397990748995
+        "coherence": 0.45265216940925235
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "open",
             "political"
         ],
-        "coherence": 0.4101501744417917
+        "coherence": 0.4086817478849774
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "contain",
             "yes"
         ],
-        "coherence": 0.43254511782101224
+        "coherence": 0.4315026534455163
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "rate",
             "end"
         ],
-        "coherence": 0.4431341017995562
+        "coherence": 0.43770742898895626
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "illness",
             "hiv"
         ],
-        "coherence": 0.40635649618648345
+        "coherence": 0.4064765099968229
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "thread",
             "disease"
         ],
-        "coherence": 0.40607159052576336
+        "coherence": 0.39743371832938423
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "president",
             "restriction"
         ],
-        "coherence": 0.4378468368734632
+        "coherence": 0.4386102291799727
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "government",
             "director"
         ],
-        "coherence": 0.42588283107394265
+        "coherence": 0.4350428887775966
     },
     "num_topics": 15,
     "gensim_coherence": 0.50949

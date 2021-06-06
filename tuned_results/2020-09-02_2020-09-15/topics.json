@@ -34,7 +34,7 @@
             "lied",
             "said"
         ],
-        "coherence": 0.5442681664512271
+        "coherence": 0.5490723062129248
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "report",
             "health"
         ],
-        "coherence": 0.5393230216843742
+        "coherence": 0.5450103793825422
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "home",
             "weekend"
         ],
-        "coherence": 0.5038679534480686
+        "coherence": 0.507984485512688
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "thank",
             "business"
         ],
-        "coherence": 0.48565057147116886
+        "coherence": 0.48080504423096065
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "time",
             "year"
         ],
-        "coherence": 0.4823494272572654
+        "coherence": 0.47727695873805454
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "alberta",
             "week"
         ],
-        "coherence": 0.49143306527818953
+        "coherence": 0.4937922219435374
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "kill",
             "dying"
         ],
-        "coherence": 0.49831662121273224
+        "coherence": 0.4967630139419011
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "evidence",
             "virus"
         ],
-        "coherence": 0.46643877228101094
+        "coherence": 0.4676707560107822
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "justintrudeau",
             "downplayed"
         ],
-        "coherence": 0.48377602582886103
+        "coherence": 0.47171190012068975
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "plus",
             "pas"
         ],
-        "coherence": 0.328981958010367
+        "coherence": 0.3244281344115734
     },
     "num_topics": 10,
     "gensim_coherence": 0.54614

@@ -34,7 +34,7 @@
             "year",
             "need"
         ],
-        "coherence": 0.534359005519322
+        "coherence": 0.5306700334662483
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "report",
             "june"
         ],
-        "coherence": 0.49737093505405244
+        "coherence": 0.5089885802496047
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "thousand",
             "large"
         ],
-        "coherence": 0.5159047481559572
+        "coherence": 0.5237881668976375
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "production",
             "poll"
         ],
-        "coherence": 0.48589510917663575
+        "coherence": 0.49310145321346466
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "bc",
             "service"
         ],
-        "coherence": 0.426677852727118
+        "coherence": 0.42526600545360926
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "shit",
             "protesting"
         ],
-        "coherence": 0.47185567560650055
+        "coherence": 0.4769761826310839
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "race",
             "war"
         ],
-        "coherence": 0.46425352153323945
+        "coherence": 0.4709670739514487
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "youtube",
             "power"
         ],
-        "coherence": 0.4285924431823549
+        "coherence": 0.43353748321533203
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "100000",
             "hey"
         ],
-        "coherence": 0.4581987872010186
+        "coherence": 0.46092733882722403
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "une",
             "health"
         ],
-        "coherence": 0.38011714071035385
+        "coherence": 0.38053493560070084
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "people",
             "prime"
         ],
-        "coherence": 0.4722706397374471
+        "coherence": 0.47496981847853886
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "transmission",
             "fuck"
         ],
-        "coherence": 0.4687369492791948
+        "coherence": 0.4636224897134872
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "report",
             "test"
         ],
-        "coherence": 0.41519772438775926
+        "coherence": 0.4169906769480024
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "started",
             "kenney"
         ],
-        "coherence": 0.4738113556589399
+        "coherence": 0.48092555857840036
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "canada",
             "yes"
         ],
-        "coherence": 0.43170291298911684
+        "coherence": 0.4371212648493903
     },
     "num_topics": 15,
     "gensim_coherence": 0.4985

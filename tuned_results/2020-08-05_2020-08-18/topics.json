@@ -34,7 +34,7 @@
             "hard",
             "real"
         ],
-        "coherence": 0.5365472214562552
+        "coherence": 0.5298643449942271
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "province",
             "daily"
         ],
-        "coherence": 0.5360243451027643
+        "coherence": 0.5417482705343337
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "required",
             "outside"
         ],
-        "coherence": 0.5189489909580776
+        "coherence": 0.5185883243878683
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "education",
             "ford"
         ],
-        "coherence": 0.5139952052207221
+        "coherence": 0.5224817792574564
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "administration",
             "harris"
         ],
-        "coherence": 0.5348522799355643
+        "coherence": 0.5472908809071495
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "age",
             "year"
         ],
-        "coherence": 0.4514359462828863
+        "coherence": 0.44369842750685556
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "bar",
             "idiot"
         ],
-        "coherence": 0.45818720232872734
+        "coherence": 0.44631711287157877
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "trust",
             "exactly"
         ],
-        "coherence": 0.4139869028613681
+        "coherence": 0.40755396641436076
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "exposure",
             "california"
         ],
-        "coherence": 0.41878974267414637
+        "coherence": 0.4215886530422029
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "expert",
             "effective"
         ],
-        "coherence": 0.4407723768835976
+        "coherence": 0.43715425360770455
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "testing",
             "gone"
         ],
-        "coherence": 0.4573466684137072
+        "coherence": 0.46005369368053617
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "warning",
             "stigma"
         ],
-        "coherence": 0.464129419979595
+        "coherence": 0.47026011659985495
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "ca",
             "qui"
         ],
-        "coherence": 0.6265779424990926
+        "coherence": 0.6247138857841492
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "away",
             "million"
         ],
-        "coherence": 0.4516741732756297
+        "coherence": 0.44901205471583777
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "pandemic",
             "politician"
         ],
-        "coherence": 0.4997899356342497
+        "coherence": 0.4924694302536192
     },
     "16": {
         "features": {
@@ -589,7 +589,7 @@
             "hoax",
             "country"
         ],
-        "coherence": 0.4618496264730181
+        "coherence": 0.44933962708427794
     },
     "17": {
         "features": {
@@ -626,7 +626,7 @@
             "looking",
             "curve"
         ],
-        "coherence": 0.508052993388403
+        "coherence": 0.5037105432578496
     },
     "18": {
         "features": {
@@ -663,7 +663,7 @@
             "pandemic",
             "america"
         ],
-        "coherence": 0.4594245033604758
+        "coherence": 0.45383010180223554
     },
     "19": {
         "features": {
@@ -700,7 +700,7 @@
             "united",
             "voter"
         ],
-        "coherence": 0.5207015818073636
+        "coherence": 0.5204423785209655
     },
     "20": {
         "features": {
@@ -737,7 +737,7 @@
             "account",
             "state"
         ],
-        "coherence": 0.4479806397642408
+        "coherence": 0.44885095897175015
     },
     "21": {
         "features": {
@@ -774,7 +774,7 @@
             "today",
             "deadly"
         ],
-        "coherence": 0.5033689141273499
+        "coherence": 0.5039143028713408
     },
     "22": {
         "features": {
@@ -811,7 +811,7 @@
             "program",
             "justin"
         ],
-        "coherence": 0.5131677681491489
+        "coherence": 0.5154926700251443
     },
     "23": {
         "features": {
@@ -848,7 +848,7 @@
             "god",
             "stupid"
         ],
-        "coherence": 0.42569591374624344
+        "coherence": 0.42533207620893204
     },
     "24": {
         "features": {
@@ -885,7 +885,7 @@
             "hey",
             "source"
         ],
-        "coherence": 0.4640994084732873
+        "coherence": 0.4617407580216726
     },
     "25": {
         "features": {
@@ -922,7 +922,7 @@
             "idea",
             "rule"
         ],
-        "coherence": 0.4880184965474265
+        "coherence": 0.4854116283711933
     },
     "num_topics": 25,
     "gensim_coherence": 0.56848

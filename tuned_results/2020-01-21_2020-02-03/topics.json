@@ -34,7 +34,7 @@
             "second",
             "woman"
         ],
-        "coherence": 0.4578775546380452
+        "coherence": 0.4562797600314731
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "saying",
             "long"
         ],
-        "coherence": 0.39767516383102963
+        "coherence": 0.391976369704519
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "declaring",
             "new"
         ],
-        "coherence": 0.48819428710710433
+        "coherence": 0.4932110335145678
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "flight",
             "federal"
         ],
-        "coherence": 0.41321801330362046
+        "coherence": 0.4208451757828395
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "russia",
             "british"
         ],
-        "coherence": 0.41801466728959763
+        "coherence": 0.41385446403707776
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "city",
             "building"
         ],
-        "coherence": 0.404707700297946
+        "coherence": 0.40487379758130937
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "infected",
             "virus"
         ],
-        "coherence": 0.48995940429823737
+        "coherence": 0.48826709446452915
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "foundation",
             "infected"
         ],
-        "coherence": 0.35240024945565634
+        "coherence": 0.3504867162023272
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "evacuating",
             "government"
         ],
-        "coherence": 0.4137625941208431
+        "coherence": 0.42361245382399787
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "act",
             "head"
         ],
-        "coherence": 0.3688772718111674
+        "coherence": 0.38401356452987306
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "trade",
             "food"
         ],
-        "coherence": 0.3860852052768072
+        "coherence": 0.38851378815514703
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "trade",
             "taking"
         ],
-        "coherence": 0.3646755730821973
+        "coherence": 0.3590641289949417
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "step",
             "xi"
         ],
-        "coherence": 0.4381571197793597
+        "coherence": 0.4421386182308197
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "set",
             "conservative"
         ],
-        "coherence": 0.3442097363017854
+        "coherence": 0.34831768444606237
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "canadian",
             "worker"
         ],
-        "coherence": 0.3714171296074277
+        "coherence": 0.3822085066920235
     },
     "16": {
         "features": {
@@ -589,7 +589,7 @@
             "cbcnews",
             "result"
         ],
-        "coherence": 0.43571526493344986
+        "coherence": 0.44743547794364746
     },
     "17": {
         "features": {
@@ -626,7 +626,7 @@
             "county",
             "drug"
         ],
-        "coherence": 0.3832952754838126
+        "coherence": 0.38203921147755215
     },
     "18": {
         "features": {
@@ -663,7 +663,7 @@
             "lying",
             "spy"
         ],
-        "coherence": 0.34891567719834193
+        "coherence": 0.34970011583396365
     },
     "19": {
         "features": {
@@ -700,7 +700,7 @@
             "healthcare",
             "alert"
         ],
-        "coherence": 0.3759739777871541
+        "coherence": 0.37647995480469293
     },
     "20": {
         "features": {
@@ -737,7 +737,7 @@
             "daily",
             "official"
         ],
-        "coherence": 0.40483548995994384
+        "coherence": 0.4154313249247415
     },
     "21": {
         "features": {
@@ -774,7 +774,7 @@
             "message",
             "telling"
         ],
-        "coherence": 0.3430463868947256
+        "coherence": 0.33812909991968243
     },
     "22": {
         "features": {
@@ -811,7 +811,7 @@
             "warned",
             "develop"
         ],
-        "coherence": 0.4304662275881994
+        "coherence": 0.4290663432507288
     },
     "23": {
         "features": {
@@ -848,7 +848,7 @@
             "theory",
             "linked"
         ],
-        "coherence": 0.3739458515530541
+        "coherence": 0.3658859207516625
     },
     "24": {
         "features": {
@@ -885,7 +885,7 @@
             "respiratory",
             "testing"
         ],
-        "coherence": 0.39564108706655954
+        "coherence": 0.3921129310414905
     },
     "25": {
         "features": {
@@ -922,7 +922,7 @@
             "shanghai",
             "shut"
         ],
-        "coherence": 0.4167924807185218
+        "coherence": 0.4153165646961757
     },
     "26": {
         "features": {
@@ -959,7 +959,7 @@
             "thailand",
             "humantohuman"
         ],
-        "coherence": 0.5005079025313968
+        "coherence": 0.4944748908281326
     },
     "27": {
         "features": {
@@ -996,7 +996,7 @@
             "worry",
             "scared"
         ],
-        "coherence": 0.35550774314573835
+        "coherence": 0.3516301692951293
     },
     "28": {
         "features": {
@@ -1033,7 +1033,7 @@
             "thanks",
             "article"
         ],
-        "coherence": 0.3642830245551609
+        "coherence": 0.3552181861230305
     },
     "29": {
         "features": {
@@ -1070,7 +1070,7 @@
             "help",
             "wuhanoutbreak"
         ],
-        "coherence": 0.43872321191288177
+        "coherence": 0.4342822374332519
     },
     "30": {
         "features": {
@@ -1107,7 +1107,7 @@
             "attention",
             "higher"
         ],
-        "coherence": 0.3515524223446846
+        "coherence": 0.351128631404468
     },
     "num_topics": 30,
     "gensim_coherence": 0.48165

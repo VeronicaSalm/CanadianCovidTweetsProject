@@ -34,7 +34,7 @@
             "coming",
             "small"
         ],
-        "coherence": 0.5111760528314682
+        "coherence": 0.5048405837445032
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "hour",
             "province"
         ],
-        "coherence": 0.5049434786751157
+        "coherence": 0.5114916509106046
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "body",
             "briefing"
         ],
-        "coherence": 0.4944823429698036
+        "coherence": 0.5015742526167914
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "communist",
             "justin"
         ],
-        "coherence": 0.4831759671370188
+        "coherence": 0.47899479695728847
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "maybe",
             "told"
         ],
-        "coherence": 0.5536685719376518
+        "coherence": 0.5492540419101715
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "fordnation",
             "longterm"
         ],
-        "coherence": 0.5085828522841136
+        "coherence": 0.4984193069594247
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "worse",
             "sick"
         ],
-        "coherence": 0.4910169144471486
+        "coherence": 0.49638110938526336
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "follow",
             "physical"
         ],
-        "coherence": 0.4605366610345386
+        "coherence": 0.4646423493112837
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "chief",
             "officer"
         ],
-        "coherence": 0.46686458360581173
+        "coherence": 0.46311337096350536
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "midst",
             "hong"
         ],
-        "coherence": 0.47120342197872345
+        "coherence": 0.463852944118636
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "vaccine",
             "treatment"
         ],
-        "coherence": 0.4675770052841732
+        "coherence": 0.478259801864624
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "doug",
             "homeless"
         ],
-        "coherence": 0.4397475832984561
+        "coherence": 0.45396883005187627
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "fired",
             "star"
         ],
-        "coherence": 0.3953868572733232
+        "coherence": 0.39694999385447727
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "florida",
             "closed"
         ],
-        "coherence": 0.5132262965043386
+        "coherence": 0.5175933210622696
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "potus",
             "abpoli"
         ],
-        "coherence": 0.40431753482137406
+        "coherence": 0.4168241981949125
     },
     "16": {
         "features": {
@@ -589,7 +589,7 @@
             "fox",
             "daily"
         ],
-        "coherence": 0.45773462312562124
+        "coherence": 0.4630721376055763
     },
     "17": {
         "features": {
@@ -626,7 +626,7 @@
             "true",
             "world"
         ],
-        "coherence": 0.4757023348694756
+        "coherence": 0.4889603004569099
     },
     "18": {
         "features": {
@@ -663,7 +663,7 @@
             "task",
             "million"
         ],
-        "coherence": 0.4230555215052196
+        "coherence": 0.4296156579539889
     },
     "19": {
         "features": {
@@ -700,7 +700,7 @@
             "think",
             "gave"
         ],
-        "coherence": 0.48109478780201503
+        "coherence": 0.47442751839047387
     },
     "20": {
         "features": {
@@ -737,7 +737,7 @@
             "dans",
             "pa"
         ],
-        "coherence": 0.5151300961417812
+        "coherence": 0.5041779749450229
     },
     "num_topics": 20,
     "gensim_coherence": 0.46569

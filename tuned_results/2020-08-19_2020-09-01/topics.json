@@ -34,7 +34,7 @@
             "right",
             "know"
         ],
-        "coherence": 0.5015553590797243
+        "coherence": 0.5001898802462078
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "day",
             "number"
         ],
-        "coherence": 0.459065994762239
+        "coherence": 0.4516840946106684
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "spread",
             "health"
         ],
-        "coherence": 0.5373958011468252
+        "coherence": 0.5347049324285417
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "world",
             "america"
         ],
-        "coherence": 0.49972491973922367
+        "coherence": 0.4927201671259744
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "said",
             "joe"
         ],
-        "coherence": 0.512182780390694
+        "coherence": 0.5165909605366843
     },
     "num_topics": 5,
     "gensim_coherence": 0.55926

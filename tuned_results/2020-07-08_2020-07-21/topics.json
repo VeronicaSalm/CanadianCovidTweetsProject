@@ -34,7 +34,7 @@
             "question",
             "better"
         ],
-        "coherence": 0.576902666262218
+        "coherence": 0.57138502626192
     },
     "2": {
         "features": {
@@ -71,7 +71,7 @@
             "refuse",
             "store"
         ],
-        "coherence": 0.5285743895031157
+        "coherence": 0.5300635848726545
     },
     "3": {
         "features": {
@@ -108,7 +108,7 @@
             "global",
             "tax"
         ],
-        "coherence": 0.5092039727029346
+        "coherence": 0.5186725874741872
     },
     "4": {
         "features": {
@@ -145,7 +145,7 @@
             "tracing",
             "campaign"
         ],
-        "coherence": 0.4967335025469462
+        "coherence": 0.4961066825049264
     },
     "5": {
         "features": {
@@ -182,7 +182,7 @@
             "want",
             "prison"
         ],
-        "coherence": 0.5504161374909537
+        "coherence": 0.5511394892420087
     },
     "6": {
         "features": {
@@ -219,7 +219,7 @@
             "texas",
             "infected"
         ],
-        "coherence": 0.5103828208787101
+        "coherence": 0.5058558038302831
     },
     "7": {
         "features": {
@@ -256,7 +256,7 @@
             "case",
             "lower"
         ],
-        "coherence": 0.491403766756966
+        "coherence": 0.4927309322924841
     },
     "8": {
         "features": {
@@ -293,7 +293,7 @@
             "icu",
             "research"
         ],
-        "coherence": 0.44761116334370205
+        "coherence": 0.4384940587338947
     },
     "9": {
         "features": {
@@ -330,7 +330,7 @@
             "truth",
             "fact"
         ],
-        "coherence": 0.48301102150054204
+        "coherence": 0.48903258783476694
     },
     "10": {
         "features": {
@@ -367,7 +367,7 @@
             "flight",
             "minister"
         ],
-        "coherence": 0.389122891000339
+        "coherence": 0.39023852802458264
     },
     "11": {
         "features": {
@@ -404,7 +404,7 @@
             "took",
             "tweet"
         ],
-        "coherence": 0.5177573317573184
+        "coherence": 0.5204822009518033
     },
     "12": {
         "features": {
@@ -441,7 +441,7 @@
             "love",
             "community"
         ],
-        "coherence": 0.5207382644925799
+        "coherence": 0.5170955587001074
     },
     "13": {
         "features": {
@@ -478,7 +478,7 @@
             "confirmed",
             "care"
         ],
-        "coherence": 0.5179998965490432
+        "coherence": 0.5164410205114456
     },
     "14": {
         "features": {
@@ -515,7 +515,7 @@
             "los",
             "suffering"
         ],
-        "coherence": 0.4259349564001674
+        "coherence": 0.41977199131534215
     },
     "15": {
         "features": {
@@ -552,7 +552,7 @@
             "gov",
             "amid"
         ],
-        "coherence": 0.49446268649328323
+        "coherence": 0.49811707479613165
     },
     "num_topics": 15,
     "gensim_coherence": 0.49302

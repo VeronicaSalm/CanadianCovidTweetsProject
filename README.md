@@ -1,6 +1,36 @@
-# CanadianCovidTweetsProject
+# CanadianCovidTweetsProject 
 
-## New! Tuned Results
+# WORK IN PROGRESS
+
+## New! (June 6, 2021): Tuned Results with Extra Stats
+
+The folder `tuned results` now contains the NMF results after tuning the number of topics using coherence (following the steps in the **Tuned Results** section below), but also contains additional statistics.
+
+### `tuned_results`
+
+The folder `tuned_results`contains the results for each 14-day segment. Each subfolder is named using the following format:
+```
+YYYY-MM-DD_YYYY-MM-DD
+```
+For example, `tuned_results/2020-01-21_2020-02-03/` contains the results of running topic modelling on all tweets from January 21, 2020 to February 3, 2020 (inclusive).      
+
+Inside each subfolder, you will find the following data:
+```
+models/
+top_15_tweets_per_topic/
+wordclouds/
+topic_distribution.png
+```
+where
+* `models/`: stores saved models and model data, which I can use to generate more data without needing to re-run all my scripts. You can probably ignore this folder, but feel free to ask me if you have any questions.
+* `wordclouds/`: **Unchanged.** This folder contains images named `topic_XX.png`, each of which is the word cloud for topic `XX`. 
+* `overall_statistics.json`: statistics about the overall dataset (i.e., all tweets for the two-week period, not related to any specific topic), including total tweets, total users, vocabulary size, and overall mean VADER scores (along with standard deviation). Note that here, the vocabulary size is the number of normalized tokens, not the total number of words in the dataset.
+*  `token_stats_general.csv`:  You might use this spreasheet to understand which terms are most common in a given period. Each row represents one token (word) in the dataset. Each column indicates information about that token: *Number of Occurrences* is the number of times that token appeared in all tweets, *Number of Tweets* is the number of tweets in which the token appeared at least once, *Percentage of Tweets* is the same as the previous column, but as a percentage of the total number of tweets, *Number of Users* is the number of users who used that tweet at least once, and *Percentage of Users* is the same as the previous column, but represented as a percentage of the total number of users. The rows are sorted in descending order by *Number of Occurrences*, so by default the first row is the most frequent term in the dataset.
+*  `token_stats_by_topic.csv`: You might use this spreadsheet to see the statistics for important terms more easily. It doesn't contain any new information. Instead it copies the token stats for each of the top 15 terms of each topic. The first column indicates the topic that that token belongs to. The remaining columns are the same as in `token_stats_general.csv`.
+* `topic_distribution.png`: **Unchanged.** An alternate visual summary which plots the weights for each word in each topic. The longer the bar for a word, the more strongly associated it is to the given topic.
+* `topic_stats.csv`: You might use this spreadsheet to understand the prevalence of each topic in the overall dataset. Some background - For each tweet, the NMF model produces a set of weights, one weight for each topic. We can classify a document to a topic by choosing the topic that produced the highest weight (presumably the one this tweet is most related to). Each row of the spreadsheet represents a topic. The *Number of Tweets* column indicates how many tweets are classified to the given topic. *Percentage of Tweets* is the same statistic, but as a percentage of the overall number of tweets. *Number of Users* is the number of users that had at least one tweet classified to the given topic.
+
+## Tuned Results
 
 The folder `tuned_results` now contains the NMF results after tuning the number of topics using coherence. The steps to generate this folder are as follows:
 1. **Tuning Process:** I tested topic counts [5,10,15,20,25,30,35,40,45,50] by generating NMF models and computing the average coherence across all produced topics. I used a different implementation of NMF (from the [Gensim library](https://radimrehurek.com/gensim/models/nmf.html)) for the tuning process because it has a built-in way to compute coherence. (We implemented coherence from scratch in our other project and I'm not certain it is trustworthy and bug-free).

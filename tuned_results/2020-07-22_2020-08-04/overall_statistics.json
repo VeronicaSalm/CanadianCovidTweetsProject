@@ -1,6 +1,6 @@
 {
     "Total Tweets": 386781,
-    "Total Users": 6484,
+    "Total Users": 16665,
     "Vader Scores": {
         "Compound": {
             "Mean": -0.01591,
@@ -19,5 +19,5 @@
             "Standard Deviation": 0.09999
         }
     },
-    "Vocabulary Size (Normalized Tokens)": 179741
+    "Vocabulary Size (Normalized Tokens)": 179742
 }

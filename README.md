@@ -64,7 +64,11 @@ PERIOD                  TOPICS   COHERENCE
 2020-09-16_2020-09-29/	15	     0.54167
 2020-09-30_2020-10-13/	20	     0.52593
 2020-10-14_2020-10-27/	10	     0.53775
-2020-10-28_2020-10-31/	10	     0.58718
+2020-10-28_2020-11-10/	15   	 0.54142
+2020-11-11_2020-11-24/	15  	 0.55077
+2020-11-25_2020-12-08/	25  	 0.52398
+2020-12-09_2020-12-22/	25  	 0.54874
+2020-12-23_2020-12-31/	15  	 0.57996  (INCOMPLETE, only 8 days)
 ```
 Interestingly, only two periods have a best number of topics that is over 30 - the rest are 20 or below, even though I tested counts up to 50.    
 
@@ -147,7 +151,11 @@ The number of tweets in each 14-day (two week) period can be found below:
 2020-09-16_2020-09-29: 465103 tweets.
 2020-09-30_2020-10-13: 483907 tweets.
 2020-10-14_2020-10-27: 435524 tweets.
-2020-10-28_2020-10-31: 120802 tweets. (INCOMPLETE, only 3 days)
+2020-10-28_2020-10-31: 390343 tweets.
+2020-11-11_2020-11-24: 497878 tweets.
+2020-11-25_2020-12-08: 487288 tweets.
+2020-12-09_2020-12-22: 409177 tweets.
+2020-12-23_2020-12-31: 237110 tweets (INCOMPLETE, only 8 days).
 ```
 Note that the final partition is only 3 days long, so you may want to skip analyzing it until I generate the rest of the data.
 

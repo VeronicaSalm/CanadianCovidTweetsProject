@@ -20,6 +20,13 @@ models/
 top_15_tweets_per_topic/
 wordclouds/
 topic_distribution.png
+overall_statistics.json
+token_stats_general.csv
+token_stats_by_topic.csv
+topic_distribution.png
+topic_stats.csv
+user_stats.tsv
+vader_scores.csv
 ```
 where
 * `models/`: stores saved models and model data, which I can use to generate more data without needing to re-run all my scripts. You can probably ignore this folder, but feel free to ask me if you have any questions.

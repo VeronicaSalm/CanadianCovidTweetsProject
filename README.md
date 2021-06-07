@@ -1,6 +1,46 @@
-# CanadianCovidTweetsProject
+# CanadianCovidTweetsProject 
 
-## New! Tuned Results
+# WORK IN PROGRESS
+
+## New! (June 6, 2021): Tuned Results with Extra Stats
+
+The folder `tuned results` now contains the NMF results after tuning the number of topics using coherence (following the steps in the **Tuned Results** section below), but also contains additional statistics.
+
+### `tuned_results`
+
+The folder `tuned_results`contains the results for each 14-day segment. Each subfolder is named using the following format:
+```
+YYYY-MM-DD_YYYY-MM-DD
+```
+For example, `tuned_results/2020-01-21_2020-02-03/` contains the results of running topic modelling on all tweets from January 21, 2020 to February 3, 2020 (inclusive).      
+
+Inside each subfolder, you will find the following data:
+```
+models/
+top_15_tweets_per_topic/
+wordclouds/
+topic_distribution.png
+overall_statistics.json
+token_stats_general.csv
+token_stats_by_topic.csv
+topic_distribution.png
+topic_stats.csv
+user_stats.tsv
+vader_scores.csv
+```
+where
+* `models/`: stores saved models and model data, which I can use to generate more data without needing to re-run all my scripts. You can probably ignore this folder, but feel free to ask me if you have any questions.
+* `top_15_tweets_per_topic/`: This folder contains one file called `topic_XX.png` for each topic, which contains the 15 tweets that were most strongly associated with each topic. Since some tweets appear many times (e.g., because many users retweet them), the column *Tweet ID* corresponds to only one instance of that tweet. The column *Weight* indicates the raw weight this tweet received for the given topic. The first row is the tweet that was most strongly associated to the given topic. **Note: Weights are not percentages. They do not necessarily range from 0 to 1!** The column *Total Times Tweeted* counts the total number of times this tweet text was published by any user during the two-week period. Finally, *Tweet Text* indicates the full text of the tweet. 
+* `wordclouds/`: **Unchanged.** This folder contains images named `topic_XX.png`, each of which is the word cloud for topic `XX`. 
+* `overall_statistics.json`: A JSON file containing statistics about the overall dataset (i.e., all tweets for the two-week period, not related to any specific topic), including total tweets, total users, vocabulary size, and overall mean VADER scores (along with standard deviation). Note that here, the vocabulary size is the number of normalized tokens, not the total number of words in the dataset.
+*  `token_stats_general.csv`:  You might use this spreasheet to understand which tokens are most common in a given period. Each row represents one token (normalized word) in the dataset. Each column indicates information about that token: *Number of Occurrences* is the number of times that token appeared in all tweets, *Number of Tweets* is the number of tweets in which the token appeared at least once, *Percentage of Tweets* is the same as the previous column, but as a percentage of the total number of tweets, *Number of Users* is the number of users who used that tweet at least once, and *Percentage of Users* is the same as the previous column, but represented as a percentage of the total number of users. The rows are sorted in descending order by *Number of Occurrences*, so by default the first row is the most frequent term in the dataset.
+*  `token_stats_by_topic.csv`: You might use this spreadsheet to see the statistics for important terms more easily. Note that it is a summary; it doesn't contain any new information. Instead, it copies the token stats for each of the top 15 terms of each topic. The first column indicates the topic that that token belongs to. The remaining columns are the same as in `token_stats_general.csv`.
+* `topic_distribution.png`: **Unchanged.** An alternate visual summary which plots the weights for each word in each topic. The longer the bar for a word, the more strongly associated it is to the given topic.
+* `topic_stats.csv`: You might use this spreadsheet to understand the prevalence of each topic in the overall dataset. Some background - For each tweet, the NMF model produces a set of weights, one weight for each topic. We can classify a document to a topic by choosing the topic that produced the highest weight (i.e., the one this tweet is most related to). Each row of the spreadsheet represents a topic. The *Number of Tweets* column indicates how many tweets are classified to the given topic. *Percentage of Tweets* is the same statistic, but as a percentage of the overall number of tweets. *Number of Users* is the number of users that had at least one tweet classified to the given topic. This might be useful if you want to understand whether many users are discussing a topic, or only a few (but who are perhaps writing many tweets). *Percentage of Users* is the same statistic, but as a percentage of the overall number of users in the dataset.
+* `user_stats.tsv`: This spreadsheet maps each user (*User ID*) to their screen name (*Screen Name*), the number of tweets they published in this period (*Number of Tweets*), the number of topics they tweeted about (*Number of Topics*, this statistic is based on which topics their tweets were classified to by the model), and a list of the topics they discussed (*Topics Discussed*). The rows are sorted in decreasing order by number of tweets, so you can see at a glance which user(s) published the most tweets over each two-week period.
+* `vader_scores.csv`: This spreadsheet maps each topic (*Topic Number*) to the mean and standard deviation of the VADER scores for that topic. Reminder: For each tweet, VADER returns four scores: Negative, Neutral, Positive and Compound (computed by normalizing the other three scores). Positive, Negative, and Neutral all range from 0.0 (low) to 1.0 (high). The Compound score ranges from -1.0 to 1.0 and is an aggregate of the other three scores. Practically, a topic with a high Positive score is more likely to be happy or grateful, while a topic with a high Negative score is more likely to be angry, sad, or scared. Please read [About the Scoring](https://github.com/cjhutto/vaderSentiment#about-the-scoring) from the VADER Github repo for more information and thresholds for considering sentiment as "positive", "negative", or "neutral". You can also read more about VADER [in this article](https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664).
+
+## Tuned Results
 
 The folder `tuned_results` now contains the NMF results after tuning the number of topics using coherence. The steps to generate this folder are as follows:
 1. **Tuning Process:** I tested topic counts [5,10,15,20,25,30,35,40,45,50] by generating NMF models and computing the average coherence across all produced topics. I used a different implementation of NMF (from the [Gensim library](https://radimrehurek.com/gensim/models/nmf.html)) for the tuning process because it has a built-in way to compute coherence. (We implemented coherence from scratch in our other project and I'm not certain it is trustworthy and bug-free).
@@ -31,7 +71,11 @@ PERIOD                  TOPICS   COHERENCE
 2020-09-16_2020-09-29/	15	     0.54167
 2020-09-30_2020-10-13/	20	     0.52593
 2020-10-14_2020-10-27/	10	     0.53775
-2020-10-28_2020-10-31/	10	     0.58718
+2020-10-28_2020-11-10/	15   	 0.54142
+2020-11-11_2020-11-24/	15  	 0.55077
+2020-11-25_2020-12-08/	25  	 0.52398
+2020-12-09_2020-12-22/	25  	 0.54874
+2020-12-23_2020-12-31/	15  	 0.57996  (INCOMPLETE, only 8 days)
 ```
 Interestingly, only two periods have a best number of topics that is over 30 - the rest are 20 or below, even though I tested counts up to 50.    
 
@@ -114,7 +158,11 @@ The number of tweets in each 14-day (two week) period can be found below:
 2020-09-16_2020-09-29: 465103 tweets.
 2020-09-30_2020-10-13: 483907 tweets.
 2020-10-14_2020-10-27: 435524 tweets.
-2020-10-28_2020-10-31: 120802 tweets. (INCOMPLETE, only 3 days)
+2020-10-28_2020-10-31: 390343 tweets.
+2020-11-11_2020-11-24: 497878 tweets.
+2020-11-25_2020-12-08: 487288 tweets.
+2020-12-09_2020-12-22: 409177 tweets.
+2020-12-23_2020-12-31: 237110 tweets (INCOMPLETE, only 8 days).
 ```
 Note that the final partition is only 3 days long, so you may want to skip analyzing it until I generate the rest of the data.
 

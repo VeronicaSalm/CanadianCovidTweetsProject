@@ -1,6 +1,8 @@
 # CanadianCovidTweetsProject 
 
-## New! (June 6, 2021): Tuned Results with Extra Stats
+## New! (July 6, 2021): Added Jan 2021 results.
+
+## Tuned Results with Extra Stats
 
 The folder `tuned results` now contains the NMF results after tuning the number of topics using coherence (following the steps in the **Tuned Results** section below), but also contains additional statistics.
 

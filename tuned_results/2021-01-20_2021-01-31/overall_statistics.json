@@ -1,0 +1,23 @@
+{
+    "Total Tweets": 315193,
+    "Total Users": 14049,
+    "Vader Scores": {
+        "Compound": {
+            "Mean": -0.00225,
+            "Standard Deviation": 0.42832
+        },
+        "Negative": {
+            "Mean": 0.07192,
+            "Standard Deviation": 0.10098
+        },
+        "Neutral": {
+            "Mean": 0.85576,
+            "Standard Deviation": 0.13345
+        },
+        "Positive": {
+            "Mean": 0.07233,
+            "Standard Deviation": 0.10064
+        }
+    },
+    "Vocabulary Size (Normalized Tokens)": 145095
+}

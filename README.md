@@ -1,5 +1,7 @@
 # CanadianCovidTweetsProject 
 
+## August 9, 2021: Added results up to July 23, 2021.
+
 ## July 22, 2021: Added Feb 2021 and Mar 2021 results.
 
 ## July 6, 2021: Added Jan 2021 results.

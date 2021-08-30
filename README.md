@@ -1,5 +1,19 @@
 # CanadianCovidTweetsProject 
 
+## 'dynamic_topic_model'
+
+This folder contains the results of running dynamic topic modelling on the Canadian tweet data from Jan 2020 - April 2021. It contains 10 subfolders, each for one of 10 topics numbered 0-9:
+```
+topic_00/
+topic_01/
+...
+topic_09/
+```
+Each subfolder contains the following information about topic XX:
+1. `wordclouds/`: this folder consists of one word cloud for each two-week time period
+2. `line_race_topic_XX.csv`: each row in this spreadsheet maps a top word for topic XX to its value in the given period (column). This spreadsheet can be used to generate a racing line chart at https://app.flourish.studio/@flourish/horserace
+3. `topic_XX.json`: for each time period, lists the raw values for each of the 15 top words.
+
 ## August 9, 2021: Added results up to July 23, 2021.
 
 ## July 22, 2021: Added Feb 2021 and Mar 2021 results.
